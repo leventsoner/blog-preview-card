@@ -63,15 +63,14 @@ body {
     margin-bottom: 6px;
 }
 
-.textbox h3 {
+.textbox h2 {
     font-weight: 800;
     font-size: 1.6rem;
-    /*line-height: 0.9em;*/
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
-.textbox h3:hover {
+.textbox h2:hover {
     color: hsl(47, 88%, 63%);
 }
 
@@ -111,6 +110,18 @@ body {
     color: hsl(228, 45%, 60%);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 @media (max-width: 375px) {    
     .card {
         width: 86%;
@@ -132,7 +143,7 @@ body {
         font-size: 12px;
     }
 
-    .textbox h3 {
+    .textbox h2 {
         font-size: 20px;
     }
 
