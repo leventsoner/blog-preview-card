@@ -66,10 +66,18 @@ Here are some code snippets I'm proud of:
     box-shadow: 8px 8px 0 0;
 }
 
-.textbox h3:hover {
-    color: hsl(47, 88%, 63%);
+.title a{    
+    text-decoration: none;
+    color: black ; 
+    font-weight: 800;
+    font-size: 1.5rem;
+    cursor: pointer;
     transition: color 0.3s ease;
 }
+
+.title a:hover{
+    color: hsl(47, 88%, 63%);
+} 
 ```
 
 This project helped me understand how to handle responsive images in different screen sizes:
