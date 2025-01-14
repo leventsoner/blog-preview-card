@@ -27,7 +27,7 @@ body {
     width:384px;
     margin: 10px 24px;
     background-color: hsl(0, 0%, 100%);    
-    border-radius: 20px;
+    border-radius: 18px;
     border: 1px solid;
     box-shadow: 8px 8px 0 0;
     font-size: 1rem;
@@ -97,6 +97,7 @@ body {
     height: 32px;
     margin-right: 12px;
 }
+
 
 .attribution { 
     font-size: 11px; 
